@@ -13,8 +13,7 @@ float apply_operation(float x,float y,char op)
     return z;
 }
 int main()
-{   float a;
-    float b;
+{   float a,b,c;
     char op;
     cout<<"Please input the first number"<<endl;
     cin>>a;
@@ -22,7 +21,7 @@ int main()
     cin>>b;
     cout<<"Please input the operation"<<endl;
     cin>>op;
-    a=apply_operation(a,b,op);
-    cout<<a<<endl;
+    c=apply_operation(a,b,op);
+    cout<<c<<endl;
     return 0;
 }
