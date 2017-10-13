@@ -24,9 +24,7 @@ int main() {
   Fruitmap.insert(other);}
  }
  for (map<string,int>::iterator mapIter = Fruitmap.begin(); mapIter != Fruitmap.end(); ++mapIter) {
-  cout<<(*mapIter).first<<" "<<(*mapIter).second;
-  cout<<endl;
+  cout<<(*mapIter).first<<" "<<(*mapIter).second<<endl;
  }
-
  return 0;
 }
